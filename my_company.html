@@ -9,44 +9,42 @@
 	<body class="is-preload">
 
 		<!-- Header -->
-			<div id="header">
+		<div id="header">
 
-				<div class="top">
+			<div class="top">
 
-					<!-- Logo -->
-						<div id="logo">
-							<span class="image avatar48"><img src="https://lh3.googleusercontent.com/a-/AOh14GjYi1RFAcHsx-ptoaBkTWPTzNpJgcJ35mwvbwrwuw=s96-c" alt="" /></span>
-							<h1 id="title">Carlos Pereira</h1>
-							<p>Web and mobile developer</p>
-						</div>
+				<!-- Logo -->
+					<div id="logo">
+						<a href="/index.html"> <span class="image avatar48"><img src="./images/profileImage.jpg" alt="" /></span> </a>
+						<h1 id="title">Carlos Pereira</h1>
+						<p>Web and mobile developer</p>
+					</div>
 
-					<!-- Nav -->
-						<nav id="nav">
-							<ul>
-								<li><a href="/index.html#top" id="top-link"><span class="icon solid fa-home">Intro</span></a></li>
-								<li><a href="/index.html#portfolio" id="portfolio-link"><span class="icon solid fa-th">Portfolio</span></a></li>
-								<li><a href="/index.html#about" id="about-link"><span class="icon solid fa-user">About Me</span></a></li>
-								<li><a href="/index.html#contact" id="contact-link"><span class="icon solid fa-envelope">Contact</span></a></li>
-							</ul>
-						</nav>
-
-				</div>
-
-				<div class="bottom">
-
-					<!-- Social Icons -->
-						<ul class="icons">
-							<li><a href="https://twitter.com/PereiraelTico" class="icon brands fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
-							<li><a href="https://www.facebook.com/profile.php?id=100009298059974" class="icon brands fa-facebook-f" target="_blank"><span class="label">Facebook</span></a></li>
-							<li><a href="https://github.com/PereiraCC" class="icon brands fa-github" target="_blank"><span class="label">Github</span></a></li>
-							<li><a href="https://www.linkedin.com/in/carlos-pereira-coto-247139220/" class="icon brands fa-linkedin-in" target="_blank"><span class="label">Linkedln</span></a></li>
-							<!-- <li><a href="https://carloscoto0103@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li> -->
+				<!-- Nav -->
+					<nav id="nav">
+						<ul>
+							<li><a href="#top" id="top-link"><span class="icon solid fa-home">Intro</span></a></li>
+							<li><a href="#management" id="portfolio-link"><span class="icon solid fa-th">My management</span></a></li>
+							<li><a href="#mobileApp" id="about-link"><span class="icon solid fa-user">Mobile App</span></a></li>
+							<li><a href="#apiRest" id="contact-link"><span class="icon solid fa-envelope">API REST</span></a></li>
 						</ul>
-
-				</div>
+					</nav>
 
 			</div>
 
+			<div class="bottom">
+
+				<!-- Social Icons -->
+					<ul class="icons">
+						<li><a href="https://twitter.com/PereiraelTico" class="icon brands fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+						<li><a href="https://www.facebook.com/profile.php?id=100009298059974" class="icon brands fa-facebook-f" target="_blank"><span class="label">Facebook</span></a></li>
+						<li><a href="https://github.com/PereiraCC" class="icon brands fa-github" target="_blank"><span class="label">Github</span></a></li>
+						<li><a href="https://www.linkedin.com/in/carlos-pereira-coto-247139220/" class="icon brands fa-linkedin-in" target="_blank"><span class="label">Linkedln</span></a></li>
+					</ul>
+
+			</div>
+
+		</div>
 		<!-- Main -->
         <div id="main">
 
@@ -66,7 +64,7 @@
                     </div>
                 </section>
 
-				<section id="about" class="three">
+				<section id="management" class="two">
 					<div class="container">
 
 						<header>
@@ -91,16 +89,21 @@
 								<a href="https://firebase.google.com/" target="_blank" class="image stack"><img src="images/fireabse-banner.png" alt="" /></a>
 							</div>
 						</div>
+					</div>
+				</section>
 
-						<br/>
 
-						<h3>Mobile app</h3>
+				<section id="mobileApp" class="three">
+					<div class="container">
+
+						<h2>Mobile app</h2>
 						<hr/>
 
 						<p>
 							In the mobile application you have the possibility to register with our email and password or enter with your Google account. <br/>
 							You can also create your company's agents where you can attach your basic information such as name, phone numbers, email, and even include a profile photo. <br/>
-							You can do the same with your products from your company where you can attach your basic information such as name, price, and photo.
+							You can do the same with your products from your company where you can attach your basic information such as name, price, and photo. <br />
+							Soon it will be in the Play Store if you want to see the source code here is the <a href="https://github.com/PereiraCC/flutter-agent-management.git" target="_blank">repository</a>.
 						</p>
 
 						<h3>Photos</h3>
@@ -108,39 +111,66 @@
 
 						<div class="row aln-center">
 							<div class="col">
-								<a href="https://flutter.dev/" target="_blank" class="image management"><img src="images/management.jpg" alt="" /></a>
+								<a class="image management-shadow"><img src="images/management.jpg" alt="" /></a>
 							</div>
 							<div class="col">
+								<a class="image management-shadow"><img src="images/search-management.jpg" alt="" /></a>
+							</div>
+							<div class="col">
+								<a class="image management-shadow"><img src="images/create-management.jpg" alt="" /></a>
+							</div>
+						</div>
+				</section>
+
+				<section id="apiRest" class="four">
+					<div class="container">
+
+						<h2>API REST</h2>
+						<hr/>
+
+						<p>
+							We need someone to do the ugly work for that we have the API REST<br/>
+							Made in Node JS in which it allows us to manage our services in an orderly and efficient way.<br/>
+							You can find it <a href="https://rest-server-agents-pereira.herokuapp.com/" target="_blank">here</a>, I also leave you <a href="https://documenter.getpostman.com/view/14542124/UUxuj9tR" target="_blank">documentation</a> 
+							if you want to see the source code here is the <a href="https://github.com/PereiraCC/Rest-Api-Server-Flutter.git" target="_blank">repository</a>.
+						</p>
+
+						<h3>Photos</h3>
+						<br/>
+
+						<div class="row aln-center">
+							<div class="col">
+								<a href="https://flutter.dev/" target="_blank" class="image apiRest"><img src="images/apiRest.PNG" alt="" /></a>
+							</div>
+							<!-- <div class="col">
 								<a href="https://flutter.dev/" target="_blank" class="image management"><img src="images/search-management.jpg" alt="" /></a>
 							</div>
 							<div class="col">
 								<a href="https://flutter.dev/" target="_blank" class="image management"><img src="images/create-management.jpg" alt="" /></a>
-							</div>
-						</div>
-						
-
-						<div class="bottom">
-
-							<!-- Social Icons -->
-								<ul class="icons">
-									<li><a href="https://twitter.com/PereiraelTico" class="icon brands fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
-									<li><a href="https://www.facebook.com/profile.php?id=100009298059974" class="icon brands fa-facebook-f" target="_blank"><span class="label">Facebook</span></a></li>
-									<li><a href="https://github.com/PereiraCC" class="icon brands fa-github" target="_blank"><span class="label">Github</span></a></li>
-									<li><a href="https://www.linkedin.com/in/carlos-pereira-coto-247139220/" class="icon brands fa-linkedin-in" target="_blank"><span class="label">Linkedln</span></a></li>
-								</ul>
-		
-						</div>
+							</div> -->
+						</div>					
 				</section>
-
         </div>
 
 		<!-- Footer -->
 			<div id="footer">
 
+				<div class="bottom">
+
+					<!-- Social Icons -->
+						<ul class="icons">
+							<li><a href="https://twitter.com/PereiraelTico" class="icon brands fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+							<li><a href="https://www.facebook.com/profile.php?id=100009298059974" class="icon brands fa-facebook-f" target="_blank"><span class="label">Facebook</span></a></li>
+							<li><a href="https://github.com/PereiraCC" class="icon brands fa-github" target="_blank"><span class="label">Github</span></a></li>
+							<li><a href="https://www.linkedin.com/in/carlos-pereira-coto-247139220/" class="icon brands fa-linkedin-in" target="_blank"><span class="label">Linkedln</span></a></li>
+						</ul>
+
+				</div>
+
 				<!-- Copyright -->
-					<ul class="copyright">
-						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-					</ul>
+				<ul class="copyright">
+					<li>&copy; Carlos Pereira. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+				</ul>
 
 			</div>
 

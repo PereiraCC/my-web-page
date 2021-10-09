@@ -1782,6 +1782,20 @@ input, select, textarea {
 			border-radius: 15px 15px 15px 15px;
 		}
 
+		.image.management-shadow img {
+			width: 350px;
+			height: 700px;
+			border-radius: 15px 15px 15px 15px;
+			box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		}
+
+		.image.apiRest img {
+			width: 1000px;
+			height: 700px;
+			border-radius: 15px 15px 15px 15px;
+			box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		}
+
 		.image.fit {
 			display: block;
 			width: 100%;
