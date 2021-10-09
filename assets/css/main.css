@@ -1770,6 +1770,18 @@ input, select, textarea {
 				border-radius: 15px 15px 15px 15px;
 			}
 
+		.image.stack img {
+			width: 150px;
+			height: 100px;
+			border-radius: 15px 15px 15px 15px;
+		}
+
+		.image.management img {
+			width: 350px;
+			height: 700px;
+			border-radius: 15px 15px 15px 15px;
+		}
+
 		.image.fit {
 			display: block;
 			width: 100%;
@@ -2249,6 +2261,13 @@ input, select, textarea {
 				padding: 10em 0;
 				background-size: cover;
 				background-position: center center;
+			}
+
+			#main > section.zero {
+				background-color: #81918E;
+				color: white;
+				height: 25em;
+				background-image: url("../../images/launcher-management.jpg");
 			}
 
 			#main > section.one {
